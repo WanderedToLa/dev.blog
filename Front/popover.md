@@ -6,7 +6,7 @@
 
 ## Popover
 
-얼마전에 생긴 `popover`를 알게되었는데 이걸로 모달을 관리하면 좋아보인다.  
+최신 HTML api 스펙에 추가된 Popover 속성으로 모달을 관리할 수 있다.
 5월에 실험단계였는데 현재는 출시된 상태.
 
 기본적으로 `display:none`속성  
@@ -19,4 +19,10 @@
 <div popover id="my-popover">My Popover</div>
 ```
 
+2023/10/23 기준 React에는 지원이 되어있지 않고 React의 이슈를 찾아본 결과,
+곧 추가될 예정이라고 한다.
+
+- [Add Popover API support](https://github.com/facebook/react/compare/dddfe688206dafa5646550d351eb9a8e9c53654a...3578155879917d837d8a2cd7112ba6e5386dd52b)
+
+- [Popover API](https://developer.mozilla.org/en-US/docs/Web/API/Popover_API)
 - [Semantics and the popover attribute: what to use when?](https://hidde.blog/popover-semantics/)
