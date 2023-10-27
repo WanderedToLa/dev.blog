@@ -21,6 +21,9 @@
 
    ```
    wsl --set-default-version 2
+   ```
+
+   ```
    wsl -l -v
    ```
 
