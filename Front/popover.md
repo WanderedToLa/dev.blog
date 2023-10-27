@@ -19,7 +19,7 @@
 <div popover id="my-popover">My Popover</div>
 ```
 
-2023/10/23 기준 React에는 지원이 되어있지 않고 React의 이슈를 찾아본 결과,
+2023/10/23 기준 React에는 지원이 되어있지 않고 React의 현재 열려있는 이슈에 의하면,
 곧 추가될 예정이라고 한다.
 
 - [Add Popover API support](https://github.com/facebook/react/compare/dddfe688206dafa5646550d351eb9a8e9c53654a...3578155879917d837d8a2cd7112ba6e5386dd52b)
